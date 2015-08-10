@@ -1,0 +1,45 @@
+body{ font:12px/1.5 "Microsoft YaHei";}
+body,html,div,table,th,tr,td{margin: 0; padding: 0;}
+.xbank{ width: 100%; border-collapse:collapse;border-spacing:0;}
+.xbank tr{ width: 100%; text-align: center; overflow: hidden;}
+.xbank th {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    width: 25%;
+    height: 38px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #eee;
+    line-height:30px;
+}
+.xbank th:last-child{
+    border-top: none;
+    border-right: none;
+}
+.xbank td{
+    width: 25%;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    color: #e34a3d;
+    font-size: 0.857rem;
+    font-family: Arial;
+}
+.xbank td span{ color: #e34a3d;
+font-size: 0.857rem;
+font-family: Arial; display: none;}
+
+.xbank td:first-child{
+    color: #666;
+    background-color: #eee;
+    font-family: "SimSun";
+}
+.xbank td:last-child{
+    border-top: none;
+    border-right: none;
+}
+table tr:nth-child(odd){background:#eee;}
+.xdetail{ width: 90%; margin: 5% auto; font-size: 0.857rem; color: #333; line-height: 1.5;}
+.xdetail span{ color: #e34a3d;} 
